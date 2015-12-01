@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run-script',
+1 verbose cli   'test' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info pretest robert-yarborough@0.1.0
+6 verbose unsafe-perm in lifecycle true
+7 info test robert-yarborough@0.1.0
+8 verbose unsafe-perm in lifecycle true
+9 info robert-yarborough@0.1.0 Failed to exec test script
+10 verbose stack Error: robert-yarborough@0.1.0 test: `karma start karma.conf.js`
+10 verbose stack spawn ENOENT
+10 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+10 verbose stack     at emitTwo (events.js:87:13)
+10 verbose stack     at ChildProcess.emit (events.js:172:7)
+10 verbose stack     at maybeClose (internal/child_process.js:818:16)
+10 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+11 verbose pkgid robert-yarborough@0.1.0
+12 verbose cwd /Users/robert-yarborough/Projects/robert-yarborough
+13 error Darwin 15.0.0
+14 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run-script" "test"
+15 error node v4.2.2
+16 error npm  v2.14.7
+17 error file sh
+18 error code ELIFECYCLE
+19 error errno ENOENT
+20 error syscall spawn
+21 error robert-yarborough@0.1.0 test: `karma start karma.conf.js`
+21 error spawn ENOENT
+22 error Failed at the robert-yarborough@0.1.0 test script 'karma start karma.conf.js'.
+22 error This is most likely a problem with the robert-yarborough package,
+22 error not with npm itself.
+22 error Tell the author that this fails on your system:
+22 error     karma start karma.conf.js
+22 error You can get their info via:
+22 error     npm owner ls robert-yarborough
+22 error There is likely additional logging output above.
+23 verbose exit [ 1, true ]
